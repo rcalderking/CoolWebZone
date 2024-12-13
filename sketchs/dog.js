@@ -7,9 +7,9 @@ let walks = [];
 function setup() {
   createCanvas(600, 900);
   imageNiko = loadImage("./sketchs/sketchMedia/dogWalk/neek.png")
-  imageVolk = loadImage("dogWalk/volk.png")
-  imagePee = loadImage("dogWalk/pee.png")
-  imagePoo = loadImage("dogWalk/poo.png")
+  imageVolk = loadImage("./sketchs/sketchMedia/dogWalk/volk.png")
+  imagePee = loadImage("./sketchs/sketchMedia/dogWalk/pee.png")
+  imagePoo = loadImage("./sketchs/sketchMedia/dogWalk/poo.png")
   
   //friday
   walks.push(         
