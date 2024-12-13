@@ -297,7 +297,7 @@ table {
 .WebWorks~.Nav .Nav-webWorks,
 .About~.Nav .Nav-about,
 .CoolThing~.Nav .Nav-coolThing {
-  cursor:url(/img/cursors/sparkles.png) 16 16,not-allowed
+  cursor:url(./imgs/cursors/sparkles.png) 16 16,not-allowed
 }
 .NavItem-link {
   display:flex;
@@ -352,6 +352,46 @@ table {
   opacity:1;
   filter:none
 }
+.Landing {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.Landing~.Nav {
+  --scale: 2
+}
+.Landing~.Nav::before {
+  opacity:1
+}
+@media(max-width: 550px) {
+  .Landing~.Nav {
+    justify-content:center
+  }
+  .Landing~.Nav .Nav-items {
+    right:unset
+  }
+}
+@media(min-width: 550px) {
+  .Landing~.Nav .Nav-items {
+    top:50%;
+    right:50%
+  }
+  .Landing~.Nav .Nav-menu {
+    margin-top:-50%;
+    margin-left:50%
+  }
+}
+.LandingTitle {
+  position:relative;
+  font-size:4rem
+}
+body {
+  position:relative;
+  height:100vh;
+  line-height:1.2;
+  background-attachment:fixed;
+  z-index:0
+}
 .Page {
   background-color:#0077c8;
   background-image:url("./imgs/textures/caustic.jpg");
@@ -363,4 +403,9 @@ table {
   font-size:18px;
   font-family:serif;
   z-index:0
+}
+@media(min-width: 550px) {
+  .Page {
+    padding:50px 50px;
+  }
 }
