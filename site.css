@@ -119,6 +119,7 @@ p{
   color: white;
   padding: 10px;
   border: 2px solid white;
+  text-align: center;
 }
 .pGraph{
   --bs-gutter-x: 2rem;
@@ -126,11 +127,15 @@ p{
   width: 95%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  padding-top : calc(var(--bs-gutter-y) * -0.5);
-  padding-bottom : calc(var(--bs-gutter-y) * 0.5);
+  padding-top : calc(var(--bs-gutter-y) * 0.25);
+  padding-bottom : calc(var(--bs-gutter-y) * 0.25);
   background-color: lightblue; 
   margin-right: auto;
   margin-left: auto;
+}
+
+.aboutStyles{
+  background: lightblue url("./imgs/banana.jpg") repeat fixed center; 
 }
 @media(max-width: 550px) {
   .Container {
