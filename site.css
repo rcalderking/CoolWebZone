@@ -134,13 +134,12 @@ p img{
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   padding-top : calc(var(--bs-gutter-y) * 0.25);
   padding-bottom : calc(var(--bs-gutter-y) * 0.25);
-  background-color: lightblue; 
   margin-right: auto;
   margin-left: auto;
 }
 
 .aboutStyles{
-  background: lightblue url("./imgs/banana.jpg") repeat fixed center; 
+  background: lightblue url("./imgs/tide.gif") repeat fixed center; 
 }
 .contactStyles{
   background: lightblue url("./imgs/tide.gif") repeat fixed center; 
