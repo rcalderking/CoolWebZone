@@ -143,10 +143,11 @@ p img{
   background: lightblue url("./imgs/banana.jpg") repeat fixed center; 
 }
 .contactStyles{
-  background: lightblue url("./imgs/banana.jpg") repeat fixed center; 
+  background: lightblue url("./imgs/tide.gif") repeat fixed center; 
+  background-color:#0077c8;
 }
 .dogStyles{
-  background: lightblue url("./imgs/banana.jpg") repeat fixed center; 
+  background: lightblue url("./imgs/jelly.gif") repeat fixed center; 
 }
 @media(max-width: 550px) {
   .Container {
