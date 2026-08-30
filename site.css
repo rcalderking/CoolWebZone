@@ -348,7 +348,7 @@ table {
 .WebWorks~.Nav .Nav-webWorks,
 .About~.Nav .Nav-about,
 .CoolThing~.Nav .Nav-coolThing {
-  cursor:url(./imgs/cursors/skeletonFinger.png) 16 16,not-allowed
+  cursor:url(./imgs/cursors/skeletonFinger.png) 32 32,not-allowed
 }
 .NavItem-link {
   display:flex;
